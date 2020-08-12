@@ -20,3 +20,15 @@ int main()
     }
 	return 0; 
 } 
+/* Output:
+current process id before fork: 12160
+parent process id before fork: 12159
+hello from parent
+current process id: 12160
+parent process id: 12159
+current process id before fork: 12160
+parent process id before fork: 12159
+hello from child
+current process id: 12210
+parent process id: 1
+*/
