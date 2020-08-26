@@ -117,3 +117,6 @@ int main()
     }
     return 0;
 }
+/*Implement the C program in which main program accepts the integers to be sorted main program uses the fork system call
+to create a new process called a child process.Parent process sorts the integers using merge sort and waits for the child 
+process using wait system call to sort the integers using quick sort.Also demonstrate the zombie and orphan states*/
