@@ -20,6 +20,6 @@ int main()
         pthread_create(&thread, NULL, test, (void *)(intptr_t)i);
         //pthread_join(thread, NULL);
     }
-    pthread_exit(NULL);
+    pthread_exit(NULL); //main thread will terminate whereas spawned threads will continue to execute.
     return 0;
 }
